@@ -1,4 +1,4 @@
-# Multiple Disease Prediction System
+ Multiple Disease Prediction System
 
 An end-to-end machine learning system for predicting the likelihood of:
 - Diabetes
@@ -9,7 +9,7 @@ This project integrates data preprocessing, model training, evaluation, and depl
 
 ---
 
-## 📌 Project Overview
+📌 Project Overview
 
 This system applies supervised machine learning techniques to three healthcare datasets to predict disease risk. Multiple models were evaluated, including Logistic Regression, Random Forest, Support Vector Machine (SVM), and Gradient Boosting.
 
@@ -19,7 +19,7 @@ Gradient Boosting (default configuration) was selected as the most consistent an
 
 ---
 
-## ⚙️ Features
+⚙️ Features
 
 - Multi-disease prediction (Diabetes, Heart Disease, Kidney Disease)
 - Data preprocessing (missing value handling, encoding, scaling)
@@ -34,7 +34,7 @@ Gradient Boosting (default configuration) was selected as the most consistent an
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 .
 ├── app.py  
@@ -53,9 +53,9 @@ Gradient Boosting (default configuration) was selected as the most consistent an
 
 ---
 
-## 🚀 How to Run the Project
+ 🚀 How to Run the Project
 
-### 1. Clone the repository
+1. Clone the repository
 
 git clone https://github.com/anispaudel/multiple-disease-prediction-system.git  
 cd multiple-disease-prediction-system  
@@ -80,7 +80,7 @@ This approach ensures a balance between precision and recall, while prioritising
 
 ---
 
-## ⚙️ Deployment (Streamlit Dashboard)
+⚙️ Deployment (Streamlit Dashboard)
 
 A web-based interactive dashboard was developed using Streamlit to demonstrate real-time prediction capabilities.
 
@@ -101,14 +101,14 @@ The dashboard includes:
 
 
 
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 
 This project is developed for **research and educational purposes only**.  
 It is **not intended for clinical diagnosis or real-world medical decision-making**.
 
 ---
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Python  
 - Streamlit  
@@ -121,13 +121,13 @@ It is **not intended for clinical diagnosis or real-world medical decision-makin
 
 ---
 
-## 🧠 Key Insight
+🧠 Key Insight
 
 Model selection prioritised Recall alongside F1-score to minimise false negatives, which is critical in healthcare applications where missed diagnoses can have severe consequences.
 
 ---
 
-## 🚀 Future Improvements
+🚀 Future Improvements
 
 - Integration with real-time clinical datasets  
 - Deployment to cloud platforms (Streamlit Cloud / AWS)  
